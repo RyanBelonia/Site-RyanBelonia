@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim - Site Super Teen Cool Legal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/patozz.png" alt="Logo do Site">
+        </div>
+        <nav class="menu">
+            <a href="index.html" id="nav-inicio">Início</a>
+            <a href="sobre.html" id="nav-sobre">Sobre mim</a>
+            <a href="blog.html" id="nav-blog">Blog Pessoal</a>
+
+            <!-- Botões de Idioma -->
+            <span style="margin-left: 20px; color: gray;">|</span>
+            <button onclick="mudarIdioma('pt')" style="background:none; border:none; color:white; cursor:pointer; font-family: monospace; font-size: 16px; margin-left: 10px;">PT</button>
+            <button onclick="mudarIdioma('en')" style="background:none; border:none; color:white; cursor:pointer; font-family: monospace; font-size: 16px;">EN</button>
+        </nav>
+    </header>
+
+    <main class="conteiner-principal">
+        <!-- BLOCO 1: Perfil e Carreira -->
+        <section class="bloco-transparente">
+            <h2 id="sobre-titulo-quem-sou">> Quem sou eu</h2>
+            <p id="sobre-texto-intro">Tenho 18 anos, nascido no Brasil e criado em Portugal desde os 10 anos. Meus pontos fortes são o desenvolvimento back-end, banco de dados e a estruturação lógica de projetos. Ainda sem muita experiência em frontend e webdesign, mas esse site em questão já está sendo uma excelente oportunidade para praticar e melhorar minhas habilidades 😅.</p>
+            <p id="sobre-texto-personalidade">Diria que não sou nem extrovertido nem introvertido; gosto de estar em ambientes sociais e conversar, mas também valorizo momentos de tranquilidade.</p>
+
+            <h3 id="sobre-titulo-carreira">> O que ando fazendo da vida</h3>
+            <img src="images/snopy de costas.jpg" alt="Snopy de costas" style="width: 200px; height: 200px; border-radius: 8px; margin-bottom: 10px;">
+            <ul>
+                <li id="sobre-li-pap"><strong>Unity & C#:</strong> Estou a desenvolver a minha PAP (Prova de Aptidão Profissional) que é o projeto final e obrigatório dos cursos profissionais.</li>
+                <li id="sobre-li-pap-link"><strong>Link da minha PAP:</strong> <a style="color: lawngreen;" href="https://github.com/RyanBelonia/PAPE-RYAN" target="_blank">Acessar PAP</a></li>
+                <li id="sobre-li-estagio"><strong>Estagiando na Internet Web Solutions (Málaga):</strong> Trabalhando na estrutura do VOICE app e entre outras atividades.</li>
+            </ul>
+
+            <h3 id="sobre-titulo-linguas">> Idiomas</h3>
+            <ul>
+                <li id="sobre-lang-pt"><strong>Português:</strong> Nativo</li>
+                <li id="sobre-lang-en"><strong>Inglês:</strong> Experiente</li>
+                <li id="sobre-lang-outros"><strong>Italiano, Japonês e Espanhol:</strong> Gostaria de aprender</li>
+            </ul>
+        </section>
+
+        <!-- BLOCO 2: Hobbies e Interesses -->
+        <section class="bloco-transparente">
+            <h2 id="sobre-titulo-interesses">> Interesses e Hobbies</h2>
+            
+            <h3 id="sobre-titulo-midia">> Mídia & Cultura</h3>
+            <p id="sobre-texto-midia">Quando não estou focado nas lógicas de programação, você provavelmente vai me encontrar vendo um anime, filme ou série, lendo algum livro pelo celular ou explorando novas tecnologias.</p>
+            <p id="sobre-texto-estetica">Tenho um grande apreço pela estética clássica, especialmente pela pintura e arquitetura tradicionais.</p>
+
+            <h3 id="sobre-titulo-musica">> Música</h3>
+            <p id="sobre-texto-musica">Gosto de ouvir música em geral, mas destaco: Funky, Rock, e músicas menos atuais (com exceção de Bruno Mars e algumas músicas pop que acho bem legais).</p>
+            <p id="sobre-texto-bateria">Também estou aprendendo a tocar bateria e acho instrumentos de sopro muito interessantes.</p>
+        </section>
+    </main>
+     <!-- Bloco de Contatos -->
+        <section class="bloco-transparente" id="contato">
+            <h2 id="sobre-titulo-contato">> Contato & Redes Sociais</h2>
+            <div class="social-links">
+                <a href="https://github.com/RyanBelonia" target="_blank">GitHub</a>
+                <a href="mailto:ryan.belonia.dev@gmail.com">E-mail</a>
+                <a href="https://www.instagram.com/ryan_belonia/" target="_blank">Instagram</a>
+            </div>
+        </section>
+    <footer>
+        <h2>© 2026 Ryan Belônia. All rights reserved.</h2>
+    </footer>
+
+    <!-- Conectando o arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>

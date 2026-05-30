@@ -1,0 +1,124 @@
+/* =========================================
+   Configurações Gerais
+   ========================================= */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: monospace; 
+    color: white; 
+}
+
+body {
+    background-image: url("images/PIinkBackground.jpg");
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+}
+
+/* =========================================
+   Cabeçalho e Menu (Header)
+   ========================================= */
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 40px;
+    box-sizing: border-box; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.logo img {
+    height: 70px;
+}
+
+nav.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav.menu a:hover {
+    color: #ff0055; 
+}
+
+/* =========================================
+   Estrutura Principal e Blocos
+   ========================================= */
+.conteiner-principal {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    min-height: calc(100vh - 200px); 
+}
+
+.bloco-transparente {
+    background-color: rgba(0, 0, 0, 0.75); 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    padding: 30px;
+    border-radius: 8px; 
+    max-width: 800px; 
+}
+
+/* Estilos de Texto dentro dos Blocos */
+.bloco-transparente h2 {
+    color: #ff0055; 
+    margin-top: 0;
+}
+
+.bloco-transparente h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.bloco-transparente p, .bloco-transparente ul {
+    line-height: 1.6; 
+}
+
+/* =========================================
+   Rodapé (Footer)
+   ========================================= */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: auto;
+}
+
+footer h2 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+}
+.social-links {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #ff0055;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #ff0055;
+    color: white;
+}
